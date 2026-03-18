@@ -6,7 +6,7 @@ def binomial_pmf_cdf(n, p, k):
     Compute Binomial PMF and CDF.
     """
     # Write code here
-    if not (isinstance(n, int) and n >= 0):
+    if not ( (n, int) and n >= 0):
         raise ValueError("n must be a non-negative integer.")
     if not (0 <= p <= 1):
         raise ValueError("p must be between 0 and 1.")
